@@ -1,0 +1,26 @@
+div,h1,h2,h3,h4,h5,h6,ul,li,a{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.App {
+  text-align: center;
+}
+
+
+.App-Main {
+  background-color: #282c34;
+  min-height: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
